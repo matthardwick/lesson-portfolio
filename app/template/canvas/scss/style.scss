@@ -1,0 +1,28 @@
+$bg1: #f1c40f;
+$bg2: #f39c12;
+
+html {
+	height: 100%;
+}
+
+body {
+  background: $bg1;
+	background: linear-gradient($bg1, $bg2);
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+p {
+	position: absolute;
+	top: 1em;
+	left: 1.25em;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	color: #fff;
+	line-height: 1.5;
+}
