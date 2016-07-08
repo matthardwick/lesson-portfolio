@@ -1,11 +1,23 @@
 html {
-  height: 100%;
+
 }
 
 body {
+  height: 100%;
+  margin-top: -20px;
+
+}
+
+header {
   background: #f1c40f;
   background: -webkit-linear-gradient(#f1c40f, #f39c12);
   background: linear-gradient(#f1c40f, #f39c12);
+  height: 300px;
+
+}
+
+span {
+  height: 100%;
 }
 
 canvas {

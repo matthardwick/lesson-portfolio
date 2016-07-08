@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		settings.maxSwingRadius = Math.max(c.width, c.height) * settings.maxSwingRadiusRatio;
 		settings.numParticles = Math.min(settings.maxParticles, Math.max(settings.minParticles, Math.round(c.width * c.height * settings.particlesPerPixel)));
 		
-		document.getElementsByClassName('particles')[0].textContent = settings.numParticles;
+		// document.getElementsByClassName('particles')[0].textContent = settings.numParticles;
 		
 		particles = {};
 		particleIndex = 0;
@@ -83,8 +83,8 @@ document.addEventListener('DOMContentLoaded', function() {
 			for(var i = 0, l = fpsLog.length; i < l; i++){
 				fps += fpsLog[i];
 			}
-			fps = Math.round(fps / fpsLog.length);
-			document.getElementsByClassName('fps')[0].textContent = fps;
+			// fps = Math.round(fps / fpsLog.length);
+			// document.getElementsByClassName('fps')[0].textContent = fps;
 		}
 
 		ctx.clearRect(0, 0, c.width, c.height);
