@@ -1,8 +1,9 @@
 .jumbotron {
   background-color: #fff;
   border-bottom: 5px solid #7d97ad;
+  color: #2d3c49;
+  text-align: center;
 }
-
 
 .avatar {
   border-radius: 100%;
@@ -11,11 +12,6 @@
   display: block;
 }
 
-#name, #title {
+.portfolio h2, p {
   text-align: center;
-  color: #2d3c49;
-}
-
-section {
-  
 }
