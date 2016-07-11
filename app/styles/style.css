@@ -5,12 +5,20 @@
   font-family: 'entypo', sans-serif;
 }
 
-
-.jumbotron {
-  background-color: #fff;
+header {
+  background-color: blue;
   border-bottom: 5px solid #7d97ad;
   color: #2d3c49;
   text-align: center;
+  display: inline-block;
+  width: 100%;
+  z-index: 1;
+}
+
+canvas {
+  top: -245px;
+  position: relative;
+  vertical-align: bottom;
 }
 
 .avatar {
