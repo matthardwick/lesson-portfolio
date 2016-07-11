@@ -12,13 +12,18 @@ header {
   text-align: center;
   display: inline-block;
   width: 100%;
-  z-index: 1;
+  height: 100%;
+}
+
+.particles-js {
+  width: 100%;
 }
 
 canvas {
   top: -245px;
   position: relative;
   vertical-align: bottom;
+  width: 100%;
 }
 
 .avatar {
@@ -26,6 +31,7 @@ canvas {
   max-width: 175px;
   margin: auto;
   display: block;
+  margin-top: 30px;
 }
 
 .portfolio h2, p {
