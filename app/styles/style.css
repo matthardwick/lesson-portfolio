@@ -5,37 +5,43 @@
   font-family: 'entypo', sans-serif;
 }
 
-header {
-  background-color: blue;
-  border-bottom: 5px solid #7d97ad;
-  color: #2d3c49;
+#bg {
+  position: absolute;
+  height: 300px;
+  background: -webkit-radial-gradient(center ellipse, #ccc 0%, #220702 100%);
+  background: radial-gradient(ellipse at center, #ccc 0%, #220702 100%);
+  border-bottom: 5px solid #220702;
+}
+
+svg {
+  height: 300px;
+}
+
+#header {
+  color: #fff;
   text-align: center;
-  display: inline-block;
   width: 100%;
+  height: 300px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
-}
-
-.particles-js {
   width: 100%;
-}
-
-canvas {
-  top: -245px;
-  position: relative;
-  vertical-align: bottom;
-  width: 100%;
+  margin: auto;
+  
 }
 
 .avatar {
   border-radius: 100%;
   max-width: 175px;
-  margin: auto;
-  display: block;
-  margin-top: 30px;
+  margin: 0 auto;
 }
 
-.portfolio h2, p {
-  text-align: center;
+.name-title {
+  margin: 0 auto;
 }
 
 ul {
@@ -54,3 +60,4 @@ li {
 img {
   max-width: 100%;
 }
+
