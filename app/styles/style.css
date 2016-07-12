@@ -8,11 +8,29 @@
 body {
   background-color: #220702;
   color: #f2f2f2;
+  font-family: "Lato",Arial, Helvetica, sans-serif;
+}
+
+a {
+  font-size: 1.25em;
+  font-weight: bold;
+  font-style: italic;
+  color: #50A06F;
+}
+
+a:visited {
+  color: #24486E
+}
+
+h1 {
+  font-family: "Merriweather",'Times New Roman', Times, serif;
+  font-weight: 700;
 }
 
 #bg {
   position: absolute;
   height: 300px;
+  max-width: 100%;
   background: -webkit-radial-gradient(center ellipse, #ccc 0%, #220702 100%);
   background: radial-gradient(ellipse at center, #ccc 0%, #220702 100%);
   border-bottom: 5px solid #220702;
@@ -20,13 +38,15 @@ body {
 
 svg {
   height: 300px;
+  max-width: 100%;
 }
 
 #header {
-
+  text-shadow: -1px 2px 2px rgba(34,7,2,0.75);
   text-align: center;
   width: 100%;
   height: 300px;
+  padding: 0;
 }
 
 .header-content {
@@ -50,9 +70,24 @@ svg {
 }
 
 .name-title {
-  margin: 0 auto;
-  text-shadow: -1px 2px 2px rgba(34,7,2,0.75);
+  width: 100%;
 }
+
+
+
+
+.name-title p {
+  font-family: "Lato",Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 1.5em;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+
 
 ul {
   list-style: none;
@@ -69,5 +104,6 @@ li {
 
 img {
   max-width: 100%;
+  padding-top: 20px;
 }
 
