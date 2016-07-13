@@ -5,26 +5,43 @@
   font-family: 'entypo', sans-serif;
 }
 
+html {
+  height: 100%;
+}
+
 body {
+  position: relative;
   background-color: #220702;
   color: #f2f2f2;
   font-family: "Lato",Arial, Helvetica, sans-serif;
+  min-height: 100%;
+  padding-bottom: 50px;
 }
+
+
 
 a {
   font-size: 1.25em;
   font-weight: bold;
   font-style: italic;
   color: #50A06F;
+  text-shadow: -1px 2px 2px rgba(0,0,0,0.75);
 }
 
 a:visited {
-  color: #24486E
+  color: #844bbd
 }
 
 h1 {
   font-family: "Merriweather",'Times New Roman', Times, serif;
+  text-shadow: -1px 2px 2px rgba(0,0,0,0.75);
   font-weight: 700;
+  font-size: 34px;
+}
+
+h2 {
+  text-shadow: -1px 2px 2px rgba(0,0,0,0.75);
+  font-size: 28px;
 }
 
 #bg {
@@ -33,7 +50,9 @@ h1 {
   max-width: 100%;
   background: -webkit-radial-gradient(center ellipse, #ccc 0%, #220702 100%);
   background: radial-gradient(ellipse at center, #ccc 0%, #220702 100%);
-  border-bottom: 5px solid #220702;
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.75);
 }
 
 svg {
@@ -56,7 +75,7 @@ svg {
   height: 100%;
   width: 100%;
   margin: auto;
-  
+
 }
 
 .avatar {
@@ -71,6 +90,11 @@ svg {
 
 .name-title {
   width: 100%;
+
+}
+
+.portfolio h1 {
+  font-size: 30px;
 }
 
 
@@ -81,10 +105,12 @@ svg {
   font-weight: 700;
   font-style: italic;
   font-size: 1.5em;
+  margin-bottom: 0;
 }
 
 .portfolio {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 
@@ -94,12 +120,13 @@ ul {
   font-size: 2em;
   text-align: center;
   padding: 0;
-  margin-top: 50px;
+  margin: 0;
 }
 
 li {
   display: inline;
-  padding: 10px;
+  padding: 0 10px;
+  text-shadow: -1px 2px 2px rgba(0,0,0,0.75);
 }
 
 img {
@@ -107,3 +134,12 @@ img {
   padding-top: 20px;
 }
 
+footer {
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  padding-bottom: 10px;
+
+}
