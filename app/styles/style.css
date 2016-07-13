@@ -73,12 +73,12 @@ header {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 100%;
   width: 100%;
   margin: auto;
@@ -92,7 +92,8 @@ header {
   box-shadow: 0 0 25px 4px rgba(34, 7, 2, 0.75);
 }
 
-.name, .featured-work-title {
+.name,
+.featured-work-title {
   font-family: "Merriweather", 'Times New Roman', Times, serif;
   text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.75);
   font-weight: 700;
@@ -148,49 +149,44 @@ footer {
   margin: 10px 0;
 }
 
-@media (min-width: 992px){
-
-  header{
+@media (min-width: 992px) {
+  header {
     height: 200px;
   }
-
-  #bg{
+  #bg {
     height: 200px;
   }
-
-  .header-content{
+  .header-content {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     -webkit-flex-flow: row nowrap;
-        -ms-flex-flow: row nowrap;
-            flex-flow: row nowrap;
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-align-content: center;
-        -ms-flex-line-pack: center;
-            align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
     -webkit-box-align: center;
     -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
-
-  .avatar{
+  .avatar {
     -webkit-align-self: auto;
-        -ms-flex-item-align: auto;
-            align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
     min-width: 0;
     min-height: auto;
   }
-
-  .name-title{
+  .name-title {
     -webkit-align-self: auto;
-        -ms-flex-item-align: auto;
-            align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
     min-width: 0;
     min-height: auto;
     text-align: right;
