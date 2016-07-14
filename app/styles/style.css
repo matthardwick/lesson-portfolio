@@ -156,6 +156,9 @@ footer {
   #bg {
     height: 200px;
   }
+  svg {
+    height: 200px;
+  }
   .header-content {
     display: -webkit-box;
     display: -webkit-flex;
